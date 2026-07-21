@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  padding: 80px 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #eee275;
+  align-items: center;
+  padding: 18px 20px;
+  padding-right: 8%;
+  padding-left: 5%;
+}
+
+ul {
+  display: flex;
+
+  list-style: none;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.Booking {
+  background-color: rgb(131, 227, 138);
+  color: rgb(71, 57, 179);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 13px;
+}
+.Booking:hover {
+  background: burlywood;
+}
+
+.main {
+  color: rgb(4, 41, 64);
+  padding-left: 0%;
+}
+
+header {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./image/abc.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.header-content {
+  color: rgb(245, 245, 245);
+  text-align: center;
+  display: grid;
+  gap: 20px;
+  .ar {
+    color: aqua;
+  }
+}
+
+.header-content button {
+  width: 40%;
+
+  margin-left: 40%;
+  padding: 10px 20px;
+  background-color: rgb(17, 0, 254);
+  border-radius: 8px;
+  font-size: 20px;
+  color: antiquewhite;
+}
+
+.header-content button {
+  margin-top: 200px;
+}
+
+.Mentors {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+  gap: 30px;
+
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.Mentors h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 50px;
+}
+.Mentors-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+.box {
+  border: 1px solid #e5e5e5;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.box img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+.id {
+  padding: 20px;
+}
+.box h6 {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #2563eb;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.box h4 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.box p {
+  margin-top: 8px;
+  color: #666;
+  font-size: 16px;
+}
+.course-price {
+  padding: 80px 20px;
+}
+.contain {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.heading h1 {
+  font-size: 67px;
+  color: #4800ff;
+  margin-bottom: 20px;
+}
+.heading p {
+  color: #a203fe;
+  font-size: 18px;
+}
+
+.fee-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1200px;
+  gap: 10px;
+
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.card {
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 12px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+}
+.card ol li {
+  color: rgb(52, 49, 45);
+  font-size: 15px;
+  line-height: 1.8;
+}
+.card h6 {
+  color: darkgray;
+}
+
+.card.pro {
+  background: rgb(80, 115, 173);
+  color: rgb(237, 241, 240);
+  border: #8cd20a;
+}
+.card.pro h5 {
+  color: #ef9e09;
+}
+.card button {
+  margin-top: auto;
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+.Reviews {
+  padding: 70px 30px;
+  border-top-left-radius: 50% 200px;
+  border-top-right-radius: 50% 5px;
+  background: #eee275;
+}
+.review-all {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.review-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.Reviews button {
+  background: #f5d4d4;
+  color: #ff0808;
+  padding: 15px 30px;
+  border-radius: 30px;
+  text-decoration: none;
+  margin-top: 50px;
+}
+
+.rating {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.social {
+  background: #d2d50a;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 2px 20px;
+}
+
+.social-right {
+  margin-left: auto;
+}
+.social-right {
+  text-align: left;
+}
+.social-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.social-icon {
+  display: flex;
+  gap: 12px;
+}
+
+.copyright {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+.copyright {
+  color: #747375;
+
+  text-align: left;
+}
+.social.copyright p {
+  margin-right: auto;
+}
+.copyright-lnk {
+  gap: 15px;
+
+  display: flex;
+  color: rgb(139, 146, 146);
+}
