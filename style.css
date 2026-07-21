@@ -16,7 +16,19 @@ nav {
   padding-right: 8%;
   padding-left: 5%;
 }
-
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.logo img {
+  width: 80px;
+  height: 80px;
+  gap: 10px;
+}
+.logo h2 {
+  margin: 0;
+}
 ul {
   display: flex;
 
